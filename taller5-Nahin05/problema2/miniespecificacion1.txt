@@ -1,0 +1,24 @@
+Miniespecificacion
+1.Inicio
+//declaro variables
+
+2.costo, d[0, n]
+3.cantidad, i[0, n]
+4.precioUnitario, d[0,n]
+5.valorDescuento, i[0, n]
+6.valorDescuento <-- 15
+
+//pido datos por teclado - entradas
+7.Escribir "Ingrese el costo por unidad"
+8.Leer precioUnitario
+9.Escribir "Ingrese el numero de unidades"
+10.Leer cantidad
+
+//porceso
+11.costo <-- (precioUnitario * cantidad)
+12.Si cantidad > 50 entonces
+13.valorDescuento <-- (costo*valoDescuento)/100
+14. costo <-- costo - valorDescuento
+15.Fin si
+16.Escribir "El costo con 15% de descuento: " + costo
+17.Fin

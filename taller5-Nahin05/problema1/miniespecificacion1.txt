@@ -1,0 +1,26 @@
+Miniespecificacion
+1. Inicio
+//declaro variables
+2. kilovatioHora, d[0, n]
+3. valorConsumido, i[0, n]
+4. valorTotal, d[0, n]
+5. edad, i[0, n]
+6. descuento, d[0, n]
+7. valorPorcentaje, i[0, n]
+8. valorPorcentaje <-- 10
+//pido datos por teclado - entradas
+9. Escribir "Ingrese el valor de costo del kilovatio por hora" 
+10. Leer kilovatioHora
+11. Escribir "Ingrese el valor de los kilovatios consumidos en el mes"
+12. Leer valorConsumido
+13. Escribir "Ingrese la edad del cliente"
+14. Leer edad
+//proceso
+15. valorTotal <-- kilovatioHora * valorConsumido
+16. Si edad > 65 entonces
+17. descuento <-- (valorTotal * valorPorcentaje)/100
+18. valorTotal <-- valorTotal - descuento
+19. Fin si
+//salida
+20. Escribir "El costo total es: " + valorTotal
+21. Fin 
